@@ -1,5 +1,6 @@
+import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, IconButton, Toolbar } from '@material-ui/core';
+import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
 import SortIcon from '@material-ui/icons/Sort';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
@@ -31,20 +32,24 @@ const useStyles = makeStyles((theme) => ({
     color: '#FFAB79',
   },
   container: {
-    textAlign:'center',
+    textAlign: 'center',
   },
   title: {
     color: '#fff',
-    fontSize:'4rem',
+    fontSize: '4rem',
   },
   goDown: {
-    color:'#FFAB79',
+    color: '#FFAB79',
     fontSize: '4rem',
   },
 }));
 
 export default function Header() {
   const classes = useStyles();
+  const [checked, setChecked] = useState(false);
+  useEffect(() => {
+    setChecked(true);
+  }, [])
   return (
     <div className={classes.root}>
       <AppBar className={classes.appbar} elevation={0}>
@@ -56,13 +61,20 @@ export default function Header() {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <div className={classes.container}>
-        <h1 className={classes.title}>
-          Welcome to <br /> My <span className={classes.colorText}>Volcano Liar</span></h1>
+      <Collapse
+        in={checked}
+        {...(checked ? { timeout: 1000 } : {})}
+        collapsedHeight={50}
+      >
+        <div className={classes.container}>
+          <h1 className={classes.title}>
+            Welcome to <br /> My <span className={classes.colorText}>Volcano Lair</span></h1>
           <IconButton>
-            <ExpandMoreIcon className={classes.goDown}/>
+            <ExpandMoreIcon className={classes.goDown} />
           </IconButton>
-      </div>
-    </div>
+        </div>
+      </Collapse>
+
+    </div >
   )
 }
