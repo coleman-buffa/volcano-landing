@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/volcano-lair/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/volcano-lair/static/js/main.799acac1.chunk.js",
-    "main.js.map": "/volcano-lair/static/js/main.799acac1.chunk.js.map",
-    "runtime-main.js": "/volcano-lair/static/js/runtime-main.cab71128.js",
-    "runtime-main.js.map": "/volcano-lair/static/js/runtime-main.cab71128.js.map",
-    "static/js/2.adcd9ed3.chunk.js": "/volcano-lair/static/js/2.adcd9ed3.chunk.js",
-    "static/js/2.adcd9ed3.chunk.js.map": "/volcano-lair/static/js/2.adcd9ed3.chunk.js.map",
-    "static/js/3.d459a163.chunk.js": "/volcano-lair/static/js/3.d459a163.chunk.js",
-    "static/js/3.d459a163.chunk.js.map": "/volcano-lair/static/js/3.d459a163.chunk.js.map",
-    "index.html": "/volcano-lair/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/volcano-lair/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.adcd9ed3.chunk.js.LICENSE.txt": "/volcano-lair/static/js/2.adcd9ed3.chunk.js.LICENSE.txt"
+    "main.css": "/volcano-landing/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/volcano-landing/static/js/main.a98eff4e.chunk.js",
+    "main.js.map": "/volcano-landing/static/js/main.a98eff4e.chunk.js.map",
+    "runtime-main.js": "/volcano-landing/static/js/runtime-main.e2eb140e.js",
+    "runtime-main.js.map": "/volcano-landing/static/js/runtime-main.e2eb140e.js.map",
+    "static/js/2.f1657a27.chunk.js": "/volcano-landing/static/js/2.f1657a27.chunk.js",
+    "static/js/2.f1657a27.chunk.js.map": "/volcano-landing/static/js/2.f1657a27.chunk.js.map",
+    "static/js/3.31d0e807.chunk.js": "/volcano-landing/static/js/3.31d0e807.chunk.js",
+    "static/js/3.31d0e807.chunk.js.map": "/volcano-landing/static/js/3.31d0e807.chunk.js.map",
+    "index.html": "/volcano-landing/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/volcano-landing/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f1657a27.chunk.js.LICENSE.txt": "/volcano-landing/static/js/2.f1657a27.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cab71128.js",
-    "static/js/2.adcd9ed3.chunk.js",
+    "static/js/runtime-main.e2eb140e.js",
+    "static/js/2.f1657a27.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.799acac1.chunk.js"
+    "static/js/main.a98eff4e.chunk.js"
   ]
 }
