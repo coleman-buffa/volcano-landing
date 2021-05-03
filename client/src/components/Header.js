@@ -49,13 +49,15 @@ export default function Header() {
   const [checked, setChecked] = useState(false);
   useEffect(() => {
     setChecked(true);
-  }, [])
+  }, []);
+
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="header">
       <AppBar className={classes.appbar} elevation={0}>
         <Toolbar className={classes.appbarWrapper}>
           <h1 className={classes.appbarTitle}>
-            My<span className={classes.colorText}>Volcano.</span></h1>
+            My<span className={classes.colorText}>Volcano.</span>
+          </h1>
           <IconButton>
             <SortIcon className={classes.icon} />
           </IconButton>

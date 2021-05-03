@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import LairCard from './LairCard';
 import lair from '../static/lair';
+import useWindowPosition from '../hook/useWindowPosition';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -9,16 +10,15 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-
   },
 }));
 export default function LairSites() {
   const classes = useStyles();
+  const checked = useWindowPosition('header');
   return (
     <div className={classes.root}>
-      <LairCard lair={lair[0]}/>
-      <LairCard lair={lair[1]}/>
-
+      <LairCard lair={lair[0]} checked={checked}/>
+      <LairCard lair={lair[1]} checked={checked}/>
     </div>
-  )
+  );
 }
