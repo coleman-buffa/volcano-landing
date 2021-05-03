@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Card, CardContent, CardMedia, Fade, Typography } from '@material-ui/core';
+import { Card, CardContent, CardMedia, Typography, Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
@@ -30,7 +30,7 @@ export default function LairCard({ lair, checked }) {
 
   return (
     <div>
-      <Fade in={checked} {...(checked ? { timeout: 500 } : {})}>
+      <Collapse in={checked} {...(checked ? { timeout: 1500 } : {})}>
         <Card className={classes.root}>
           <CardMedia
             className={classes.media}
@@ -55,7 +55,7 @@ export default function LairCard({ lair, checked }) {
             </Typography>
           </CardContent>
         </Card>
-      </Fade>
+      </Collapse>
     </div>
 
   );
