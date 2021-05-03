@@ -2,7 +2,7 @@
   "name": "Evil Lair Shopper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://coleman.buffa.github.io/volcano-lair",
+  "homepage": "https://coleman-buffa.github.io/volcano-landing/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
