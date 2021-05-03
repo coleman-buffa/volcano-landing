@@ -10,13 +10,16 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    [theme.breakpoints.down("md")]: {
+      flexDirection: 'column',
+    },
   },
 }));
 export default function LairSites() {
   const classes = useStyles();
   const checked = useWindowPosition('header');
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="lair-to-visit">
       <LairCard lair={lair[0]} checked={checked}/>
       <LairCard lair={lair[1]} checked={checked}/>
     </div>
