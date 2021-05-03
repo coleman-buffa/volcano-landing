@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/volcano-lair/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/volcano-lair/static/js/main.799acac1.chunk.js",
+    "main.js.map": "/volcano-lair/static/js/main.799acac1.chunk.js.map",
+    "runtime-main.js": "/volcano-lair/static/js/runtime-main.cab71128.js",
+    "runtime-main.js.map": "/volcano-lair/static/js/runtime-main.cab71128.js.map",
+    "static/js/2.adcd9ed3.chunk.js": "/volcano-lair/static/js/2.adcd9ed3.chunk.js",
+    "static/js/2.adcd9ed3.chunk.js.map": "/volcano-lair/static/js/2.adcd9ed3.chunk.js.map",
+    "static/js/3.d459a163.chunk.js": "/volcano-lair/static/js/3.d459a163.chunk.js",
+    "static/js/3.d459a163.chunk.js.map": "/volcano-lair/static/js/3.d459a163.chunk.js.map",
+    "index.html": "/volcano-lair/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/volcano-lair/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.adcd9ed3.chunk.js.LICENSE.txt": "/volcano-lair/static/js/2.adcd9ed3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cab71128.js",
+    "static/js/2.adcd9ed3.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.799acac1.chunk.js"
+  ]
+}
